@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Binary Level </title>
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Da52E4KchBk3tDV/3VrKX4wugI7L31cYegDFl/l8Dpk=" name="csrf-token" />
+  <meta name="viewport" content="width=960">
+
+  <link type="text/plain" rel="author" href="http://github.com/humans.txt" />
+
+  <link href="https://gist.github.com/assets/application-d1a03b9789a8bbf602873717455082f3.css" media="screen, print" rel="stylesheet" />
+  <script src="https://gist.github.com/assets/application-d59eb21136ca65604f773659082ab028.js"></script>
+
+    <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@github">
+  <meta property="og:title" content="ravikishore1993/binary-100.cpp">
+  <meta property="og:type" content="githubog:gist">
+  <meta property="og:url" content="https://gist.github.com/ravikishore1993/5be9af828d2476f4e654">
+  <meta property="og:image" content="https://secure.gravatar.com/avatar/a5888733dc72f79e638fe6a7abb7795e?s=140&amp;d=https://github.com/images/gravatars/gravatar-140.png">
+  <meta property="og:site_name" content="GitHub Gists">
+  <meta property="og:description" content="Binary Level  - Gist is a simple way to share snippets of text and code with others.">
+  <meta name="description" content="Binary Level  - Gist is a simple way to share snippets of text and code with others.">
+
+</head>
+
+<body class="">
+
+  <div id="wrapper">
+    
+
+    <div id="header" class="header header-logged-out">
+      <div class="container" class="clearfix">
+        <a class="header-logo-wordmark" href="https://gist.github.com/">
+          <img alt="GitHub:Gist" class="github-logo-4x" height="30" src="https://gist.github.com/assets/modules/header/logo@4x-d1f04d805ee6b4e58ccbdd0652f915f5.png">
+          <img alt="GitHub:Gist" class="github-logo-4x-hover" height="30" src="https://gist.github.com/assets/modules/header/logo@4x-hover-3d1e646ccb5193547b942350f87b068a.png">
+        </a>
+
+        <div class="header-actions">
+          <a class="button primary" href="https://github.com/signup?return_to=gist">Sign up for a GitHub Account</a>
+          <a class="button" href="/login?return_to=/ravikishore1993/5be9af828d2476f4e654" data-skip-pjax>Sign in</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-content" id="js-pjax-container" data-pjax-container>
+      <div class="vis-secret site-container js-site-container" data-url="/ravikishore1993/5be9af828d2476f4e654">
+  
+  <div class="pagehead repohead">
+  <div class="container">
+    <div class="title-actions-bar">
+      <ul class="pagehead-actions">
+        
+        <li>
+      </ul>
+      <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title secret">
+        <span class="repo-label"><span>secret</span></span>
+        <span class="mega-icon mega-icon-gist-secret tooltipped downandright" title="Secret gists are hidden from search engines but visible to anyone you give the URL."></span>
+        <div class="meta">
+          <div class="gist-author">
+            <img src="https://secure.gravatar.com/avatar/a5888733dc72f79e638fe6a7abb7795e?s=140&amp;d=https://github.com/images/gravatars/gravatar-140.png" width="26" height="26">
+            <span class="author vcard">
+                <span itemprop="title"><a href="/ravikishore1993">ravikishore1993</a></span>
+            </span> /
+            <strong><a href="/ravikishore1993/5be9af828d2476f4e654" class="js-current-repository">binary-100.cpp</a></strong>
+          </div>
+          <div class="gist-timestamp">
+              <span class="datetime">Created <time class="js-relative-date" title="2013-03-07T12:07:03Z" datetime="2013-03-07T12:07:03Z">2013-03-07</time></span>
+          </div>
+      </h1>
+    </div>
+
+  </div>
+</div>
+
+
+
+<div class="gist-description container">
+  <p>Binary Level </p>
+</div>
+
+<div class="gist container">
+    <div class="root-pane">
+  <div class="menu-container">
+    <ul class="menu gisttabs">
+      <li>
+        <a href="/ravikishore1993/5be9af828d2476f4e654" class="selected">
+          Gist Detail
+        </a>
+      </li>
+
+        <li>
+          <a href="/ravikishore1993/5be9af828d2476f4e654/revisions" >
+            Revisions
+            <span class="counter">1</span>
+          </a>
+        </li>
+
+
+    </ul>
+  </div>
+
+  <ul class="export-references">
+    <li>
+      <a href="/ravikishore1993/5be9af828d2476f4e654/download" class="minibutton" rel="nofollow"><span class="mini-icon mini-icon-download"></span>Download Gist</a>
+    </li>
+    <li>
+      <label for="url-field"><strong>Clone</strong> this gist</label>
+      <input type="text" readonly spellcheck="false" class="url-field js-url-field" name="url-field" value="https://gist.github.com/5be9af828d2476f4e654.git">
+    </li>
+    <li>
+      <label for="embed-field"><strong>Embed</strong> this gist</label>
+      <input type="text" readonly spellcheck="false" class="url-field js-url-field" name="embed-field" value="&lt;script src=&quot;https://gist.github.com/ravikishore1993/5be9af828d2476f4e654.js&quot;&gt;&lt;/script&gt;">
+    </li>
+    <li>
+      <label for="link-field"><strong>Link to</strong> this gist</label>
+      <input type="text" readonly spellcheck="false" class="url-field js-url-field" name="link-field" value="https://gist.github.com/ravikishore1993/5be9af828d2476f4e654">
+    </li>
+  </ul>
+</div>
+
+
+  <div class="column files">
+        <div id="file-binary-100-cpp" class="bubble">
+          <div class="file-box ">
+            <div class="meta">
+              <div class="file-info">
+                <span class="file-type-icon"><span class="mini-icon mini-icon-gist"></span></span>
+                <strong class="file-name js-selectable-text">binary-100.cpp</strong>
+              </div>
+              <div class="file-actions">
+                <span class="file-language">C++</span>
+                <ul class="button-group">
+                  <li><a title="Permalink" href="#file-binary-100-cpp" class="file-actions-button tooltipped downwards permalink"><span class="mini-icon mini-icon-link"></span></a></li>
+                  <li><a title="View Raw" href="/ravikishore1993/5be9af828d2476f4e654/raw/a60d16285fad3e610fe56c7f20f15dc22afa5a79/binary-100.cpp" data-skip-pjax class="file-actions-button tooltipped downwards raw-url"><span class="mini-icon mini-icon-code"></span></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="suppressed">
+              <a class="js-show-suppressed-file">File suppressed. Click to show.</a>
+            </div>
+            
+
+
+  <div class="file-data">
+    <table cellpadding="0" cellspacing="0" class="lines highlight">
+      <tr>
+        <td class="line-numbers">
+          <span class="line-number" id="file-binary-100-cpp-L1" rel="file-binary-100-cpp-L1">1</span>
+          <span class="line-number" id="file-binary-100-cpp-L2" rel="file-binary-100-cpp-L2">2</span>
+          <span class="line-number" id="file-binary-100-cpp-L3" rel="file-binary-100-cpp-L3">3</span>
+          <span class="line-number" id="file-binary-100-cpp-L4" rel="file-binary-100-cpp-L4">4</span>
+          <span class="line-number" id="file-binary-100-cpp-L5" rel="file-binary-100-cpp-L5">5</span>
+          <span class="line-number" id="file-binary-100-cpp-L6" rel="file-binary-100-cpp-L6">6</span>
+          <span class="line-number" id="file-binary-100-cpp-L7" rel="file-binary-100-cpp-L7">7</span>
+          <span class="line-number" id="file-binary-100-cpp-L8" rel="file-binary-100-cpp-L8">8</span>
+          <span class="line-number" id="file-binary-100-cpp-L9" rel="file-binary-100-cpp-L9">9</span>
+          <span class="line-number" id="file-binary-100-cpp-L10" rel="file-binary-100-cpp-L10">10</span>
+          <span class="line-number" id="file-binary-100-cpp-L11" rel="file-binary-100-cpp-L11">11</span>
+          <span class="line-number" id="file-binary-100-cpp-L12" rel="file-binary-100-cpp-L12">12</span>
+          <span class="line-number" id="file-binary-100-cpp-L13" rel="file-binary-100-cpp-L13">13</span>
+          <span class="line-number" id="file-binary-100-cpp-L14" rel="file-binary-100-cpp-L14">14</span>
+          <span class="line-number" id="file-binary-100-cpp-L15" rel="file-binary-100-cpp-L15">15</span>
+          <span class="line-number" id="file-binary-100-cpp-L16" rel="file-binary-100-cpp-L16">16</span>
+          <span class="line-number" id="file-binary-100-cpp-L17" rel="file-binary-100-cpp-L17">17</span>
+          <span class="line-number" id="file-binary-100-cpp-L18" rel="file-binary-100-cpp-L18">18</span>
+          <span class="line-number" id="file-binary-100-cpp-L19" rel="file-binary-100-cpp-L19">19</span>
+          <span class="line-number" id="file-binary-100-cpp-L20" rel="file-binary-100-cpp-L20">20</span>
+          <span class="line-number" id="file-binary-100-cpp-L21" rel="file-binary-100-cpp-L21">21</span>
+          <span class="line-number" id="file-binary-100-cpp-L22" rel="file-binary-100-cpp-L22">22</span>
+          <span class="line-number" id="file-binary-100-cpp-L23" rel="file-binary-100-cpp-L23">23</span>
+          <span class="line-number" id="file-binary-100-cpp-L24" rel="file-binary-100-cpp-L24">24</span>
+          <span class="line-number" id="file-binary-100-cpp-L25" rel="file-binary-100-cpp-L25">25</span>
+          <span class="line-number" id="file-binary-100-cpp-L26" rel="file-binary-100-cpp-L26">26</span>
+          <span class="line-number" id="file-binary-100-cpp-L27" rel="file-binary-100-cpp-L27">27</span>
+          <span class="line-number" id="file-binary-100-cpp-L28" rel="file-binary-100-cpp-L28">28</span>
+          <span class="line-number" id="file-binary-100-cpp-L29" rel="file-binary-100-cpp-L29">29</span>
+          <span class="line-number" id="file-binary-100-cpp-L30" rel="file-binary-100-cpp-L30">30</span>
+          <span class="line-number" id="file-binary-100-cpp-L31" rel="file-binary-100-cpp-L31">31</span>
+          <span class="line-number" id="file-binary-100-cpp-L32" rel="file-binary-100-cpp-L32">32</span>
+          <span class="line-number" id="file-binary-100-cpp-L33" rel="file-binary-100-cpp-L33">33</span>
+          <span class="line-number" id="file-binary-100-cpp-L34" rel="file-binary-100-cpp-L34">34</span>
+          <span class="line-number" id="file-binary-100-cpp-L35" rel="file-binary-100-cpp-L35">35</span>
+          <span class="line-number" id="file-binary-100-cpp-L36" rel="file-binary-100-cpp-L36">36</span>
+          <span class="line-number" id="file-binary-100-cpp-L37" rel="file-binary-100-cpp-L37">37</span>
+          <span class="line-number" id="file-binary-100-cpp-L38" rel="file-binary-100-cpp-L38">38</span>
+          <span class="line-number" id="file-binary-100-cpp-L39" rel="file-binary-100-cpp-L39">39</span>
+          <span class="line-number" id="file-binary-100-cpp-L40" rel="file-binary-100-cpp-L40">40</span>
+          <span class="line-number" id="file-binary-100-cpp-L41" rel="file-binary-100-cpp-L41">41</span>
+          <span class="line-number" id="file-binary-100-cpp-L42" rel="file-binary-100-cpp-L42">42</span>
+          <span class="line-number" id="file-binary-100-cpp-L43" rel="file-binary-100-cpp-L43">43</span>
+          <span class="line-number" id="file-binary-100-cpp-L44" rel="file-binary-100-cpp-L44">44</span>
+          <span class="line-number" id="file-binary-100-cpp-L45" rel="file-binary-100-cpp-L45">45</span>
+          <span class="line-number" id="file-binary-100-cpp-L46" rel="file-binary-100-cpp-L46">46</span>
+          <span class="line-number" id="file-binary-100-cpp-L47" rel="file-binary-100-cpp-L47">47</span>
+          <span class="line-number" id="file-binary-100-cpp-L48" rel="file-binary-100-cpp-L48">48</span>
+          <span class="line-number" id="file-binary-100-cpp-L49" rel="file-binary-100-cpp-L49">49</span>
+          <span class="line-number" id="file-binary-100-cpp-L50" rel="file-binary-100-cpp-L50">50</span>
+          <span class="line-number" id="file-binary-100-cpp-L51" rel="file-binary-100-cpp-L51">51</span>
+          <span class="line-number" id="file-binary-100-cpp-L52" rel="file-binary-100-cpp-L52">52</span>
+          <span class="line-number" id="file-binary-100-cpp-L53" rel="file-binary-100-cpp-L53">53</span>
+          <span class="line-number" id="file-binary-100-cpp-L54" rel="file-binary-100-cpp-L54">54</span>
+          <span class="line-number" id="file-binary-100-cpp-L55" rel="file-binary-100-cpp-L55">55</span>
+          <span class="line-number" id="file-binary-100-cpp-L56" rel="file-binary-100-cpp-L56">56</span>
+          <span class="line-number" id="file-binary-100-cpp-L57" rel="file-binary-100-cpp-L57">57</span>
+          <span class="line-number" id="file-binary-100-cpp-L58" rel="file-binary-100-cpp-L58">58</span>
+          <span class="line-number" id="file-binary-100-cpp-L59" rel="file-binary-100-cpp-L59">59</span>
+          <span class="line-number" id="file-binary-100-cpp-L60" rel="file-binary-100-cpp-L60">60</span>
+          <span class="line-number" id="file-binary-100-cpp-L61" rel="file-binary-100-cpp-L61">61</span>
+          <span class="line-number" id="file-binary-100-cpp-L62" rel="file-binary-100-cpp-L62">62</span>
+        </td>
+        <td class="line-data">
+          <pre class="line-pre"><div class="line" id="file-binary-100-cpp-LC1"><span class="cp">#include&lt;iostream&gt;</span></div><div class="line" id="file-binary-100-cpp-LC2"><span class="cp">#include&lt;cstring&gt;</span></div><div class="line" id="file-binary-100-cpp-LC3"><span class="cp">#include&lt;cstdlib&gt;</span></div><div class="line" id="file-binary-100-cpp-LC4"><span class="cp">#include&lt;ctime&gt;</span></div><div class="line" id="file-binary-100-cpp-LC5"><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span> <span class="p">;</span></div><div class="line" id="file-binary-100-cpp-LC6">&nbsp;</div><div class="line" id="file-binary-100-cpp-LC7"><span class="kt">int</span> <span class="nf">check</span><span class="p">(</span> <span class="kt">char</span><span class="o">*</span>  <span class="p">)</span>	 <span class="p">;</span></div><div class="line" id="file-binary-100-cpp-LC8"><span class="kt">char</span><span class="o">*</span> <span class="nf">md5_custom</span><span class="p">(</span> <span class="kt">char</span><span class="o">*</span>  <span class="p">)</span> <span class="p">;</span></div><div class="line" id="file-binary-100-cpp-LC9">	 </div><div class="line" id="file-binary-100-cpp-LC10"><span class="n">main</span><span class="p">(</span> <span class="kt">int</span> <span class="n">argv</span> <span class="p">,</span> <span class="kt">char</span> <span class="o">**</span><span class="n">argc</span>   <span class="p">)</span></div><div class="line" id="file-binary-100-cpp-LC11"><span class="p">{</span></div><div class="line" id="file-binary-100-cpp-LC12">		</div><div class="line" id="file-binary-100-cpp-LC13">	<span class="k">if</span><span class="p">(</span><span class="n">argv</span> <span class="o">&gt;</span><span class="mi">3</span><span class="p">){</span></div><div class="line" id="file-binary-100-cpp-LC14">		</div><div class="line" id="file-binary-100-cpp-LC15">			<span class="n">srand</span><span class="p">(</span><span class="n">time</span><span class="p">(</span><span class="nb">NULL</span><span class="p">));</span></div><div class="line" id="file-binary-100-cpp-LC16">			<span class="kt">int</span> <span class="o">*</span><span class="n">size</span> <span class="p">,</span> <span class="o">*</span><span class="n">select</span> <span class="p">;</span></div><div class="line" id="file-binary-100-cpp-LC17">			<span class="kt">int</span> <span class="n">size</span> <span class="o">=</span> <span class="n">argv</span><span class="o">&lt;&lt;</span><span class="mi">3</span> <span class="p">,</span> <span class="n">select</span> <span class="o">=</span> <span class="n">rand</span><span class="p">()</span> <span class="o">%</span> <span class="p">(</span> <span class="n">argv</span><span class="o">-</span><span class="mi">1</span> <span class="p">)</span> <span class="o">+</span><span class="mi">1</span> <span class="p">;</span></div><div class="line" id="file-binary-100-cpp-LC18">			<span class="kt">char</span> <span class="n">password</span><span class="p">[</span><span class="n">size</span><span class="p">]</span> <span class="p">;</span> </div><div class="line" id="file-binary-100-cpp-LC19">			<span class="kt">char</span> <span class="o">*</span><span class="n">size_pass</span> <span class="o">=</span> <span class="n">password</span>  <span class="p">;</span></div><div class="line" id="file-binary-100-cpp-LC20">			<span class="kt">char</span> <span class="o">*</span><span class="n">check_pass</span> <span class="o">=</span> <span class="n">size_pass</span> <span class="o">+</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">password</span><span class="p">)</span> <span class="p">;</span> </div><div class="line" id="file-binary-100-cpp-LC21">			<span class="o">*</span><span class="n">check_pass</span> <span class="o">=</span> <span class="sc">&#39;0&#39;</span><span class="p">;</span> </div><div class="line" id="file-binary-100-cpp-LC22">			<span class="n">strcpy</span><span class="p">(</span> <span class="n">password</span> <span class="p">,</span> <span class="n">argc</span><span class="p">[</span><span class="n">select</span><span class="p">]</span>  <span class="p">);</span> </div><div class="line" id="file-binary-100-cpp-LC23">		</div><div class="line" id="file-binary-100-cpp-LC24">		</div><div class="line" id="file-binary-100-cpp-LC25">			<span class="k">if</span> <span class="p">(</span> <span class="n">check</span><span class="p">(</span> <span class="n">md5_custom</span><span class="p">(</span> <span class="n">password</span> <span class="p">)</span> <span class="p">)</span>  <span class="p">)</span> <span class="o">*</span><span class="n">check_pass</span> <span class="o">=</span> <span class="sc">&#39;1&#39;</span> <span class="p">;</span></div><div class="line" id="file-binary-100-cpp-LC26">		</div><div class="line" id="file-binary-100-cpp-LC27">			<span class="k">if</span><span class="p">(</span> <span class="o">*</span><span class="n">check_pass</span> <span class="o">==</span> <span class="sc">&#39;1&#39;</span> <span class="p">)</span> <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">&quot; ####################  is the password ! . Good Job ! &quot;</span><span class="o">&lt;&lt;</span><span class="n">endl</span><span class="p">;</span></div><div class="line" id="file-binary-100-cpp-LC28">		</div><div class="line" id="file-binary-100-cpp-LC29">			<span class="k">else</span> <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">&quot;Md5-custom Trolls ! Collide the 3 millionth one ! &quot;</span><span class="o">&lt;&lt;</span><span class="n">endl</span><span class="p">;</span> </div><div class="line" id="file-binary-100-cpp-LC30">		</div><div class="line" id="file-binary-100-cpp-LC31">		</div><div class="line" id="file-binary-100-cpp-LC32">		</div><div class="line" id="file-binary-100-cpp-LC33">		<span class="p">}</span></div><div class="line" id="file-binary-100-cpp-LC34">		</div><div class="line" id="file-binary-100-cpp-LC35">	<span class="k">else</span><span class="p">{</span></div><div class="line" id="file-binary-100-cpp-LC36">		<span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">&quot;  I Want More Passwords !!!&quot;</span><span class="o">&lt;&lt;</span><span class="n">endl</span> <span class="p">;</span></div><div class="line" id="file-binary-100-cpp-LC37">		<span class="p">}</span>	</div><div class="line" id="file-binary-100-cpp-LC38">		</div><div class="line" id="file-binary-100-cpp-LC39"><span class="p">}</span></div><div class="line" id="file-binary-100-cpp-LC40">&nbsp;</div><div class="line" id="file-binary-100-cpp-LC41">&nbsp;</div><div class="line" id="file-binary-100-cpp-LC42">&nbsp;</div><div class="line" id="file-binary-100-cpp-LC43">&nbsp;</div><div class="line" id="file-binary-100-cpp-LC44"><span class="kt">char</span><span class="o">*</span> <span class="n">md5_custom</span><span class="p">(</span> <span class="kt">char</span><span class="o">*</span> <span class="n">password</span> <span class="p">){</span> </div><div class="line" id="file-binary-100-cpp-LC45">	</div><div class="line" id="file-binary-100-cpp-LC46">	<span class="c1">// Here comes a large code that calculates &#39;  md5( password )   &#39;</span></div><div class="line" id="file-binary-100-cpp-LC47">	<span class="c1">// return the hash ;</span></div><div class="line" id="file-binary-100-cpp-LC48">	</div><div class="line" id="file-binary-100-cpp-LC49">	<span class="p">}</span></div><div class="line" id="file-binary-100-cpp-LC50">&nbsp;</div><div class="line" id="file-binary-100-cpp-LC51">&nbsp;</div><div class="line" id="file-binary-100-cpp-LC52"><span class="kt">int</span> <span class="n">check</span><span class="p">(</span> <span class="kt">char</span><span class="o">*</span> <span class="n">hash</span>  <span class="p">){</span></div><div class="line" id="file-binary-100-cpp-LC53">	 </div><div class="line" id="file-binary-100-cpp-LC54">	 <span class="k">for</span><span class="p">(</span> <span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span> <span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">32</span> <span class="p">;</span> <span class="n">i</span><span class="o">++</span>  <span class="p">){</span> </div><div class="line" id="file-binary-100-cpp-LC55">		 <span class="k">if</span><span class="p">(</span> <span class="n">hash</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">!=</span> <span class="s">&quot;f2332291a6e1e6154f3cf4ad8b7504d8&quot;</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="p">)</span><span class="k">return</span> <span class="mi">0</span> <span class="p">;</span></div><div class="line" id="file-binary-100-cpp-LC56">		 </div><div class="line" id="file-binary-100-cpp-LC57">		 </div><div class="line" id="file-binary-100-cpp-LC58">		 <span class="p">}</span></div><div class="line" id="file-binary-100-cpp-LC59">		 <span class="k">return</span> <span class="mi">1</span> <span class="p">;</span></div><div class="line" id="file-binary-100-cpp-LC60">	 </div><div class="line" id="file-binary-100-cpp-LC61">	 <span class="p">}</span></div><div class="line" id="file-binary-100-cpp-LC62">	 </div></pre>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+          </div>
+        </div>
+    <div id="comments" class="new-comments">
+      
+    </div>
+      <p class="uncommentable"><span class="mini-icon mini-icon-exclamation"></span> Please <a href="/login?return_to=/ravikishore1993/5be9af828d2476f4e654" rel="nofollow">sign in</a> to comment on this gist.</p>
+  </div>
+</div>
+
+  <div class="context-overlay"></div>
+</div>
+
+    </div>
+    <div class="slow-loading-overlay"></div>
+  </div>
+
+  <div id="ajax-error-message" class="flash flash-error">
+    <div class="container">
+      <span class="mini-icon mini-icon-exclamation"></span>
+      Something went wrong with that request. Please try again.
+      <a href="#" class="mini-icon mini-icon-remove-close ajax-error-dismiss"></a>
+    </div>
+  </div>
+
+  <footer>
+    <div id="footer">
+  <div class="container clearfix">
+
+    <p class="right">&copy; 2013 GitHub Inc. All rights reserved.</p>
+    <a class="left" href="/">
+      <span class="mega-icon mega-icon-invertocat"></span>
+    </a>
+    <ul id="legal">
+      <li><a href="http://github.com/blog">The GitHub Blog</a></li>
+      <li><a href="mailto:support@github.com">Support</a></li>
+      <li><a href="https://github.com/contact">Contact</a></li>
+    </ul>
+
+  </div><!-- /.container -->
+</div><!-- /.#footer -->
+
+  </footer>
+
+</body>
+</html>
