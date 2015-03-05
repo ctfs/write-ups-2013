@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CTFtime.org / backdoorCTF 2013</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Capture The Flag, CTF teams ratings, CTF archive, CTF writeups">
+    <meta name="author" content="ctftime team">
+
+    <!-- Le styles -->
+    <link href="/static/bootstrap/css/bootstrap.css" rel="stylesheet"/>
+    <link href="/static/css/ctftime.css" rel="stylesheet"/>
+    <link href="/static/css/typeahead.bootstrap.css" rel="stylesheet"/>
+<!--   <link rel="stylesheet" type="text/css" href="/static/css/tagmanager.css"/>-->
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="/static/bootstrap/css/bootstrap-responsive.css" rel="stylesheet"/>
+<!--    <link href="/static/css/datepicker.css" rel="stylesheet"> -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+    
+    
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.formset.js"></script>
+
+    
+    
+    
+  </head>
+
+
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="//ctftime.org/"><img src="/static/images/ctftime-logo.png" alt="CTFtime.org" border="0" /></a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="/ctfs">CTFs</a></li>
+              <li><a href="/event/list/upcoming">Upcoming</a></li>
+              <li><a href="/event/list/past">Archive</a></li>
+              <li><a href="/calendar/">Calendar</a></li>
+              <li><a href="/stats/">Teams</a></li>
+              <li><a href="/faq/">FAQ</a></li>
+              <li><a href="/about/">About</a></li>
+              <li><a href="/feedback/">Contact us</a></li>
+            </ul>
+            <ul class="nav pull-right">
+            <li class="divider-vertical"></li>
+                
+                <li><a href="#loginModal" data-toggle="modal">Sign in</a></li>
+                
+            </ul>
+            
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+    
+
+<ul class="breadcrumb">
+    <li><a href="/">Home</a> <span class="divider">/</span></li>
+    <li><a href="/ctfs">CTFs</a> <span class="divider">/</span></li>
+    <li><a href="/event/list/">Events</a> <span class="divider">/</span></li>
+    <li class="active">backdoorCTF</li>
+</ul>
+
+
+    
+
+    
+
+
+<div class="page-header">
+<h2>backdoorCTF 2013</h2>
+</div>
+
+<div class="row">
+<div class="span10">
+<p>
+March 9, 2013, 3:30 p.m. &mdash; March 11, 2013, 3:30 p.m.&nbsp;<a href="/event/72.ics" rel="tooltip" id="calendar"><i class="icon-calendar"></i></a>
+</p>
+<p><b>On-line</b></p>
+<p></p>
+<p>An <a href="/ctf/49">backdoorCTF</a> event.</p>
+<p>Format: Jeopardy&nbsp;<img src="/static/images/ct/1.png" alt="Jeopardy" border="0" /></p>
+<p>Offical URL: <a href="http://backdoor.cognizance.org.in/" rel="nofollow">http://backdoor.cognizance.org.in/</a></p>
+<p>Rating weight: 20.00&nbsp;<a href="/rating-formula/#weight"><i class="icon-question-sign"></i></a></p>
+
+
+
+
+
+<p>Poll rating: <span id="user_rating" class="category-value">4.4</span></p>
+
+
+
+<b>Event organizers&nbsp;<a href="/for-organizers/" id="organizers" rel="tooltip"><i class="icon-question-sign"></i></a></b>
+<ul>
+
+<li><a href="/team/2480">SDSLabs</a></li>
+
+</ul>
+
+
+<div>
+<br/>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style ">
+<a class="addthis_button_preferred_1"></a>
+<a class="addthis_button_preferred_2"></a>
+<a class="addthis_button_preferred_3"></a>
+<a class="addthis_button_preferred_4"></a>
+<a class="addthis_button_compact"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4fd5ce2d1d972de3"></script>
+<!-- AddThis Button END --><br/>
+</div>
+
+</div>
+<div class="span2">
+
+
+
+
+    <img src="/media/cache/0b/4a/0b4a317ba84bb2bd6e871c5eec6fdb00.png" width="150" height="120">
+
+
+
+</div>
+</div>
+
+
+
+
+<div class="well">
+
+<p>A jeopardy-style CTF organized during Cognizance 2013, IIT Roorkee's techfest, by SDSLabs.</p>
+
+</div>
+
+
+
+<h3>Prizes</h3>
+<div class="well">
+<p>1st Prize :- Rs.8000<br />2nd Prize :- Rs.4000<br />3rd Prize :- Rs.2000</p>
+
+</div>
+
+
+
+
+
+
+
+<div class="row">
+<div class="span10">
+<p><a href="/event/72/tasks/">See event tasks and writeups</a></p>
+</div>
+<div span="2">
+
+
+</div>
+</div>
+
+
+<h3>Scoreboard</h3>
+<p align="right">80 teams total</p>
+<table class="table table-striped past_event_rating">
+<tr><th colspan="2">Place</th><th>Team</th><th>CTF points</th><th>Rating points</th></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place leader">1</td>
+<td><a href="/team/762">dcua</a></td>
+<td class="points">3815.000</td><td>40.000</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">2</td>
+<td><a href="/team/3947">v3l0cityz3r0</a></td>
+<td class="points">3720.000</td><td>29.502</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">3</td>
+<td><a href="/team/1411">Headump</a></td>
+<td class="points">3640.000</td><td>25.749</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">4</td>
+<td><a href="/team/3948">p!r@t3s</a></td>
+<td class="points">3590.000</td><td>23.820</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">5</td>
+<td><a href="/team/3949">Got Root</a></td>
+<td class="points">3515.000</td><td>22.427</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">6</td>
+<td><a href="/team/3950">dnivra</a></td>
+<td class="points">3250.000</td><td>20.371</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">7</td>
+<td><a href="/team/3951">botnet</a></td>
+<td class="points">3250.000</td><td>19.895</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">8</td>
+<td><a href="/team/3952">sbi0s</a></td>
+<td class="points">3250.000</td><td>19.538</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">9</td>
+<td><a href="/team/662">bi0s</a></td>
+<td class="points">3250.000</td><td>19.260</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">10</td>
+<td><a href="/team/2508">hellokitty</a></td>
+<td class="points">3225.000</td><td>18.907</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">11</td>
+<td><a href="/team/3953">sakshi</a></td>
+<td class="points">3225.000</td><td>18.725</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">12</td>
+<td><a href="/team/3954">2sbi0s</a></td>
+<td class="points">3175.000</td><td>18.311</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">13</td>
+<td><a href="/team/793">1338-offbyone</a></td>
+<td class="points">3175.000</td><td>18.183</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">14</td>
+<td><a href="/team/3955">Beginbi0s</a></td>
+<td class="points">3100.000</td><td>17.680</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">15</td>
+<td><a href="/team/859">Inception</a></td>
+<td class="points">3050.000</td><td>17.323</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">16</td>
+<td><a href="/team/3803">Graphite</a></td>
+<td class="points">2925.000</td><td>16.584</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">17</td>
+<td><a href="/team/321">NULL Life</a></td>
+<td class="points">2475.000</td><td>14.152</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">18</td>
+<td><a href="/team/603">ChocolateMakers</a></td>
+<td class="points">1850.000</td><td>10.810</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">19</td>
+<td><a href="/team/3956">Akrockzzz</a></td>
+<td class="points">1550.000</td><td>9.178</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">20</td>
+<td><a href="/team/3957">YouKnowWho</a></td>
+<td class="points">1425.000</td><td>8.471</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">21</td>
+<td><a href="/team/824">SsoMac</a></td>
+<td class="points">1400.000</td><td>8.292</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">22</td>
+<td><a href="/team/3797">Inquisitive</a></td>
+<td class="points">1290.000</td><td>7.672</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">23</td>
+<td><a href="/team/3958">hczi0npqu</a></td>
+<td class="points">1275.000</td><td>7.554</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">24</td>
+<td><a href="/team/3959">webfuel</a></td>
+<td class="points">1225.000</td><td>7.255</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">25</td>
+<td><a href="/team/3960">Rising Force</a></td>
+<td class="points">1200.000</td><td>7.091</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">26</td>
+<td><a href="/team/1828">WeLoveCP</a></td>
+<td class="points">1200.000</td><td>7.060</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">27</td>
+<td><a href="/team/3961">jayant</a></td>
+<td class="points">1120.000</td><td>6.612</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">28</td>
+<td><a href="/team/3962">Testing</a></td>
+<td class="points">1120.000</td><td>6.586</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">29</td>
+<td><a href="/team/3963">abhshkdz</a></td>
+<td class="points">1050.000</td><td>6.194</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">30</td>
+<td><a href="/team/394">weareplaying</a></td>
+<td class="points">1050.000</td><td>6.171</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">31</td>
+<td><a href="/team/3964">0x01</a></td>
+<td class="points">1000.000</td><td>5.888</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">32</td>
+<td><a href="/team/3658">LOOLOO</a></td>
+<td class="points">1000.000</td><td>5.867</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">33</td>
+<td><a href="/team/3965">bithin</a></td>
+<td class="points">975.000</td><td>5.717</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">34</td>
+<td><a href="/team/3966">deception</a></td>
+<td class="points">900.000</td><td>5.306</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">35</td>
+<td><a href="/team/469">ufologists</a></td>
+<td class="points">850.000</td><td>5.028</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">36</td>
+<td><a href="/team/3967">OneManTeam</a></td>
+<td class="points">775.000</td><td>4.618</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">37</td>
+<td><a href="/team/794">p03p0wn</a></td>
+<td class="points">650.000</td><td>3.948</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">38</td>
+<td><a href="/team/3925">Protocol</a></td>
+<td class="points">625.000</td><td>3.803</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">39</td>
+<td><a href="/team/3344">PR0T0C0L</a></td>
+<td class="points">625.000</td><td>3.789</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">40</td>
+<td><a href="/team/3968">bond</a></td>
+<td class="points">600.000</td><td>3.645</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">41</td>
+<td><a href="/team/2958">pwners</a></td>
+<td class="points">500.000</td><td>3.109</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">42</td>
+<td><a href="/team/651">xelenonz</a></td>
+<td class="points">500.000</td><td>3.097</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">43</td>
+<td><a href="/team/3492">h4x0r</a></td>
+<td class="points">500.000</td><td>3.086</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">44</td>
+<td><a href="/team/1722">MyTeam</a></td>
+<td class="points">425.000</td><td>2.683</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">45</td>
+<td><a href="/team/3969">jofrutas</a></td>
+<td class="points">400.000</td><td>2.541</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">46</td>
+<td><a href="/team/3970">w0rmicelli</a></td>
+<td class="points">400.000</td><td>2.532</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">47</td>
+<td><a href="/team/3787">Spounchers</a></td>
+<td class="points">375.000</td><td>2.391</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">48</td>
+<td><a href="/team/3971">redeemer</a></td>
+<td class="points">350.000</td><td>2.252</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">49</td>
+<td><a href="/team/1501">The DHARMA Initiative</a></td>
+<td class="points">300.000</td><td>1.981</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">50</td>
+<td><a href="/team/3972">pouet</a></td>
+<td class="points">300.000</td><td>1.973</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">51</td>
+<td><a href="/team/3973">Nemotest</a></td>
+<td class="points">225.000</td><td>1.572</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">52</td>
+<td><a href="/team/3974">Big Boss</a></td>
+<td class="points">200.000</td><td>1.433</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">53</td>
+<td><a href="/team/3975">TSTORMXSD</a></td>
+<td class="points">200.000</td><td>1.426</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">54</td>
+<td><a href="/team/3976">hack_123</a></td>
+<td class="points">200.000</td><td>1.419</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">55</td>
+<td><a href="/team/3977">zorianix</a></td>
+<td class="points">150.000</td><td>1.150</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">56</td>
+<td><a href="/team/3978">lolcode</a></td>
+<td class="points">140.000</td><td>1.091</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">57</td>
+<td><a href="/team/3979">hawk_eye</a></td>
+<td class="points">50.000</td><td>0.613</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">58</td>
+<td><a href="/team/3980">delirium</a></td>
+<td class="points">50.000</td><td>0.607</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">59</td>
+<td><a href="/team/1610">A-Team</a></td>
+<td class="points">50.000</td><td>0.601</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">60</td>
+<td><a href="/team/3981">Nuts</a></td>
+<td class="points">50.000</td><td>0.595</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">61</td>
+<td><a href="/team/3982">TeamNuts</a></td>
+<td class="points">50.000</td><td>0.590</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">62</td>
+<td><a href="/team/3983">nk_team</a></td>
+<td class="points">50.000</td><td>0.585</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">63</td>
+<td><a href="/team/3984">L0L</a></td>
+<td class="points">50.000</td><td>0.580</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">64</td>
+<td><a href="/team/3985">trackdown</a></td>
+<td class="points">50.000</td><td>0.575</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">65</td>
+<td><a href="/team/3986">achilles</a></td>
+<td class="points">50.000</td><td>0.570</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">66</td>
+<td><a href="/team/3987">D3molition</a></td>
+<td class="points">50.000</td><td>0.565</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">67</td>
+<td><a href="/team/3988">Army Ants</a></td>
+<td class="points">50.000</td><td>0.561</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">68</td>
+<td><a href="/team/3989">BOTNET_OM</a></td>
+<td class="points">50.000</td><td>0.556</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">69</td>
+<td><a href="/team/3990">backdoor</a></td>
+<td class="points">50.000</td><td>0.552</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">70</td>
+<td><a href="/team/1320">empire</a></td>
+<td class="points">50.000</td><td>0.548</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">71</td>
+<td><a href="/team/2478">ANONYMOUS</a></td>
+<td class="points">50.000</td><td>0.544</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">72</td>
+<td><a href="/team/3991">The Agents</a></td>
+<td class="points">50.000</td><td>0.540</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">73</td>
+<td><a href="/team/3992">dumbass</a></td>
+<td class="points">50.000</td><td>0.536</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">74</td>
+<td><a href="/team/3993">knightwave</a></td>
+<td class="points">50.000</td><td>0.532</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">75</td>
+<td><a href="/team/3994">KISS</a></td>
+<td class="points">50.000</td><td>0.529</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">76</td>
+<td><a href="/team/3995">oioioi</a></td>
+<td class="points">50.000</td><td>0.525</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">77</td>
+<td><a href="/team/3996">GoDFathER</a></td>
+<td class="points">50.000</td><td>0.522</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">78</td>
+<td><a href="/team/3997">theDuffers</a></td>
+<td class="points">50.000</td><td>0.519</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">79</td>
+<td><a href="/team/3998">dvjbndlsh93</a></td>
+<td class="points">50.000</td><td>0.515</td></tr>
+
+<tr>
+<td class="place_ico"></td><td class="place">80</td>
+<td><a href="/team/3999">paglab</a></td>
+<td class="points">20.000</td><td>0.177</td></tr>
+
+</table>
+
+
+
+
+
+
+<div class="page-header">
+<h3>Comments</h3>
+</div>
+
+
+<a href="/user/106">Mykola Ilin</a> &ndash; March 13, 2013, 10:30 a.m.
+
+<p>Hey, where is scoreboard? Orgs claim that have send to ctftime.org right after the CTF completion?</p>
+<hr />
+
+<a href="/user/2">Eldar Zaitov</a> &ndash; March 18, 2013, 9:12 p.m.
+
+<p>Mykola, sorry, was quite busy. Posted.</p>
+<hr />
+
+<a href="/user/106">Mykola Ilin</a> &ndash; March 19, 2013, 6:39 a.m.
+
+<p>No problem, thank you.</p>
+<hr />
+
+
+
+
+
+<script>
+$(function () {
+    $('table.past_event_rating tr.member').tooltip({ placement : 'top', title: 'Your team!'});
+    $('#calendar').tooltip({ placement : 'right', title: 'Export to your calendar'});
+    $('#progress').tooltip({ placement : 'right', title: 'In progress'});
+    $('#organizers').tooltip({ placement : 'right', title: 'Task authors'});
+})
+</script>
+
+
+
+
+  <div class="row">
+    <div class="span4">
+    </div><!-- /.span -->
+  </div><!-- /.row -->
+
+    </div><!-- /container -->
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="footer">
+    <div class="container">
+      <p class="pull-right"><a href="//twitter.com/CTFtime" class="twitter-follow-button" data-show-count="false">Follow @CTFtime</a>        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
+      <p>All tasks and writeups are copyrighted by their respective authors.<br/>
+    Original CTFtime logo by <a href=http://botanick.net/>Botanick</a>, geo-clustered hosting provided by <a href="http://www.clustertech.org/">Clustertech</a>.</p>
+    </div>
+    </footer>
+
+
+
+    <div class="modal hide fade" id="loginModal">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">x</button>
+        <h3>Logon via</h3>
+    </div>
+    <div class="modal-body" align="center">
+        <a href="/login/google-oauth2/"><img src="/static/images/google_32.png" alt="Enter using Google" /></a>
+        <a href="/login/twitter/"><img src="/static/images/twitter_32.png" alt="Enter using Twitter" /></a>
+        <a href="/login/facebook/"><img src="/static/images/facebook_32.png" alt="Enter using Facebook" /></a>
+        <a href="/login/github/"><img src="/static/images/github_32.png" alt="Enter using Github" /></a>
+    </div>
+    </div>
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/static/bootstrap/js/bootstrap-transition.js"></script>
+    <script src="/static/bootstrap/js/bootstrap-alert.js"></script>
+    <script src="/static/bootstrap/js/bootstrap-modal.js"></script>
+    <script src="/static/bootstrap/js/bootstrap-dropdown.js"></script>
+<!--    <script src="/static/bootstrap/js/bootstrap-scrollspy.js"></script>-->
+    <script src="/static/bootstrap/js/bootstrap-tab.js"></script>
+    <script src="/static/bootstrap/js/bootstrap-tooltip.js"></script>
+    <script src="/static/bootstrap/js/bootstrap-popover.js"></script>
+    <script src="/static/bootstrap/js/bootstrap-button.js"></script>
+    <script src="/static/bootstrap/js/bootstrap-collapse.js"></script>
+<!--    <script src="/static/bootstrap/js/bootstrap-carousel.js"></script>-->
+    <script src="/static/js/typeahead.js"></script>
+
+    <script type="text/javascript">
+        $('.dropdown-toggle').dropdown();
+    </script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter14236711 = new Ya.Metrika({id:14236711, enableAll: true, webvisor:true});
+        } catch(e) {}
+    });
+    
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/14236711" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-559211-27']);
+  _gaq.push(['_setDomainName', 'ctftime.org']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>

@@ -1,7 +1,7 @@
 # Backdoor CTF write-ups
 
-* <TODO>
-* [Scoreboard](TODO) or [here](TODOLOCAL)
+* <http://backdoor.cognizance.org.in/>
+* [Scoreboard](https://ctftime.org/event/72) or [here](scoreboard.txt)
 
 ## Completed write-ups
 
