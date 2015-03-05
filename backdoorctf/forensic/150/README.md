@@ -1,6 +1,7 @@
-# Backdoor CTF 2015: 150
-**Category:** 
-**Points:** 
+# Backdoor CTF 2015: Forensics 150
+
+**Category:** Forensics
+**Points:** 150
 **Solves:** 
 **Description:** 
 
@@ -8,10 +9,9 @@
 > 
 > Here is the disfigured QR code:-
 > 
-> The Flag is md5 of last 13 characters of password hidden in the QR.
+> The Flag is md5 of last 13 characters of password hidden in [the QR](wet_QR.png).
 > 
 > H4x0r promises to reward 150 h4x0rcoins anyone who gives him the password.
-> 
 > 
 > HINT: Hmmm... Can't I just try and reverse the fading somehow?
 

@@ -1,6 +1,7 @@
-# Backdoor CTF 2015: 50
-**Category:** 
-**Points:** 
+# Backdoor CTF 2015: Binary 50
+
+**Category:** Binary
+**Points:** 50
 **Solves:** 
 **Description:** 
 
@@ -9,7 +10,7 @@
 > he accidentally (obviously)found a flag. His next status update was " The script kiddies will never be able to get the flag from this password protected binary.
 > 
 > How dare he call you and us "script kiddies"?! Take him down.
-> Here is the file . For 32bit users - file
+> Here is the [file](binary50.zip) . For 32bit users - [file](binary50.zip_32bit)
 
 ## Write-up
 

@@ -1,14 +1,12 @@
-# Backdoor CTF 2015: 250
-**Category:** 
-**Points:** 
+# Backdoor CTF 2015: Crypto 250
+
+**Category:** Crypto
+**Points:** 250
 **Solves:** 
 **Description:** 
 
 > While poking around H4x0r's security systems , two text files containing 16*32 array of hexadecimal charecters . Neither adding nor subtracting the files from each other helped .
 > H4x0r seems fond of bases lower than decimal . Unless you manage to crack this , he will succeed in his evil plans to rule the world . 
-> 
-> 
-> 
 > 
 > HINT : H4x0r loves binary representation and of course does the opposite of what everyone else does. So when everyone else uses XOR he...
 > If after this you still are stuck, this might help you: for some reason he thinks pigs are related to ciphers!
