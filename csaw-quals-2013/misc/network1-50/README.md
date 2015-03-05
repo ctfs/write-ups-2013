@@ -1,6 +1,6 @@
 # CSAW Quals CTF 2015: Networking 1
 
-**Category:** Networking
+**Category:** Misc
 **Points:** 50
 **Solves:** 1004
 **Description:** 
