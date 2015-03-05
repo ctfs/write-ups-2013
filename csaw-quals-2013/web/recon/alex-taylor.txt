@@ -1,0 +1,13 @@
+Alexander Taylor - 100 Points
+Solved by 134 teams.
+
+Alexander Taylor
+https://www.google.com/search?&q=Alexander+Taylor
+
+1) Grab photo from judges page
+2) Strings/analyze
+3) Notice unusual chunks
+4) extract bogus ones
+5) xor
+6) ???
+7) profit

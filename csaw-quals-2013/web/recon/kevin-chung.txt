@@ -1,0 +1,13 @@
+Kevin Chung - 100 Points
+Solved by 292 teams.
+
+Kevin Chung
+https://www.google.com/search?&q=Kevin+Chung
+
+1) add 'security' or 'poly' to kevin's search:
+2) find codekevin.com
+3) shows hint that no key there, but references 'graduation'
+4) https://www.google.com/search?&q=Kevin+Chung+high+school
+5) Page 3 finds: https://hsf.isis.poly.edu/previous_winners
+6) Which points to: https://hsf.isis.poly.edu/assets/uploads/pages/previous_winners/key.txt
+

@@ -1,0 +1,11 @@
+Reversing : keygenme
+
+someone has leaked a binary from an activation server.
+can you crack the keygen algorithm for me?
+
+using the ELF provided, reverse the keygeneration algorithm.
+The server listening at raxcity.com on port 2000 will ask you for 
+the passwords of various usernames.  If you can provide 10 passwords, you might get a nice flag :-)
+
+*hint*
+Rumor has it that the actual keygen runs in a custom vm. I'd start by decoding the instruction format.

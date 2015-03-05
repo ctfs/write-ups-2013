@@ -1,0 +1,20 @@
+Jordan Wiens - 100 Points
+Solved by 188 teams.
+
+http://key.psifertex.com
+
+
+1) key.psfiertex.com contains: "Michael Vario sure does some suspicious signs, hope he doesn't do me"
+2) Google "Michael Vario", see multiple results about weird PGP key signing he does.
+3) Search jordan wiens on any public keyserver: http://pgp.mit.edu:11371/pks/lookup?op=vindex&search=0x9FBEBC5EA827D636
+4) 'getting warmer!' in gpg key name
+
+5a) search for analyze pgp and follow http://www.macfreek.nl/memory/Analysing_PGP_Identities 
+
+or
+
+5b) just import key into thunderbird. notice picture.
+
+or
+
+5c) search/import with gpg, use gpg 'showpicture' function to show image
