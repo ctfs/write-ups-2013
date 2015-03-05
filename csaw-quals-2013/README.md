@@ -2,6 +2,7 @@
 
 * <https://ctf.isis.poly.edu/>
 * [Scoreboard](https://ctftime.org/event/96) or [here](scoreboard.txt)
+* [Number of solves per task](solves.txt)
 
 ## Completed write-ups
 
