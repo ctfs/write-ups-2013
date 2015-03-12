@@ -15,7 +15,7 @@ We are given a corrupt PNG file:
 $ file IMG_0707.png
 IMG_0707.png: PNG image data, 3264 x 1681, 8-bit/color RGBA, non-interlaced
 $ pngcheck IMG_0707.png
-IMG_0707.png  CRC error in chunk IHDR (computed fcc410a8, expected c1d0b3e4
+IMG_0707.png  CRC error in chunk IHDR (computed fcc410a8, expected c1d0b3e4)
 ERROR: IMG_0707.png
 ```
 
