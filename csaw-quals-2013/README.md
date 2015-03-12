@@ -6,7 +6,10 @@
 
 ## Completed write-ups
 
-* none yet
+* [misc/black-and-white-100](misc/black-and-white-100)
+* [misc/deeeeeeaaaaaadbeeeeeeeeeef-200](misc/deeeeeeaaaaaadbeeeeeeeeeef-200)
+* [misc/network1-50](misc/network1-50)
+* [misc/network2-50](misc/network2-50)
 
 ## External write-ups only
 
@@ -22,11 +25,7 @@
 * [exploitation/exploit2-200](exploitation/exploit2-200)
 * [exploitation/miteegashun-400](exploitation/miteegashun-400)
 * [exploitation/scp-hack-500](exploitation/scp-hack-500)
-* [misc/black-and-white-100](misc/black-and-white-100)
-* [misc/deeeeeeaaaaaadbeeeeeeeeeef-200](misc/deeeeeeaaaaaadbeeeeeeeeeef-200)
 * [misc/life-300](misc/life-300)
-* [misc/network1-50](misc/network1-50)
-* [misc/network2-50](misc/network2-50)
 * [reversing/bikinibonanza-150](reversing/bikinibonanza-150)
 * [reversing/crackme-300](reversing/crackme-300)
 * [reversing/csaw2013reversing1-100](reversing/csaw2013reversing1-100)
