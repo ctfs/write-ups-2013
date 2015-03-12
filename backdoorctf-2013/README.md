@@ -5,7 +5,8 @@
 
 ## Completed write-ups
 
-* none yet
+* [forensic/250](forensic/250)
+* [forensic/300](forensic/300)
 
 ## External write-ups only
 
@@ -21,5 +22,3 @@
 * [crypto/400](crypto/400)
 * [crypto/75](crypto/75)
 * [forensic/150](forensic/150)
-* [forensic/250](forensic/250)
-* [forensic/300](forensic/300)
