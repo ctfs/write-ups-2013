@@ -5,29 +5,31 @@
 
 ## Completed write-ups
 
+* none yet
+
 ## External write-ups only
 
-* [Beer Pump Filtration](Beer-Pump-Filtration)
-* [BREW'r'Y](BREW-r-Y)
-* [ECKA](ECKA)
-* [ELF](ELF)
-* [FluxArchiv (Part 1)](FluxArchiv-Part1)
-* [FluxArchiv (Part 2)](FluxArchiv-Part2)
-* [Geier's Lambda](Geier-s-Lambda)
-* [Geolocation Flag](Geolocation-Flag)
-* [Marvin is plain-Jane](Marvin-is-plain-Jane)
-* [Packed](Packed)
-* [Pay TV](Pay-TV)
-* [RoboAuth](RoboAuth)
-* [Roboparty](Roboparty)
-* [Robot Plans](Robot-Plans)
-* [Robotic Superiority](Robotic-Superiority)
-* [Robots Exclusion Committee](Robots-Exclusion-Committee)
-* [Wannabe](Wannabe)
-* [What's wrong with this?](What-s-wrong-with-this)
+* [Beer Pump Filtration](misc/Beer-Pump-Filtration)
+* [BREW'r'Y](crypto/BREW-r-Y)
+* [ECKA](crypto/ECKA)
+* [ELF](reversing/ELF)
+* [FluxArchiv (Part 1)](reversing/FluxArchiv-Part1)
+* [FluxArchiv (Part 2)](reversing/FluxArchiv-Part2)
+* [Geier's Lambda](crypto/Geier-s-Lambda)
+* [Geolocation Flag](misc/Geolocation-Flag)
+* [Marvin is plain-Jane](crypto/Marvin-is-plain-Jane)
+* [Packed](internals/Packed)
+* [Pay TV](web/Pay-TV)
+* [RoboAuth](reversing/RoboAuth)
+* [Roboparty](misc/Roboparty)
+* [Robot Plans](internals/Robot-Plans)
+* [Robotic Superiority](exploiting/Robotic-Superiority)
+* [Robots Exclusion Committee](web/Robots-Exclusion-Committee)
+* [Wannabe](exploiting/Wannabe)
+* [What's wrong with this?](internals/What-s-wrong-with-this)
 
 ## Missing write-ups
 
-* [Breznparadisebugmaschine](Breznparadisebugmaschine)
-* [For whom the bell tolls](For-whom-the-bell-tolls)
-* [OTP](OTP)
+* [Breznparadisebugmaschine](exploiting/Breznparadisebugmaschine)
+* [For whom the bell tolls](misc/For-whom-the-bell-tolls)
+* [OTP](misc/OTP)
