@@ -24,7 +24,7 @@
 * [Robotic Superiority](Robotic-Superiority)
 * [Robots Exclusion Committee](Robots-Exclusion-Committee)
 * [Wannabe](Wannabe)
-* [What's wrong with this?](What-s-wrong-with-this?)
+* [What's wrong with this?](What-s-wrong-with-this)
 
 ## Missing write-ups
 
