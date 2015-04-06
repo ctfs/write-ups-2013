@@ -10,13 +10,12 @@
 
 ## External write-ups only
 
-* none yet
+* [binary/50](binary/50)
 
 ## Missing write-ups
 
 * [binary/100](binary/100)
 * [binary/200](binary/200)
-* [binary/50](binary/50)
 * [binary/500](binary/500)
 * [crypto/250](crypto/250)
 * [crypto/400](crypto/400)

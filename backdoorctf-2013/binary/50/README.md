@@ -18,4 +18,4 @@
 
 ## Other write-ups and resources
 
-* none yet
+* <http://anee.me/backdoorctf-2013-bin-50-writeup/>
