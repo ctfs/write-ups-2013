@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Secure Login Server</title>
+</head>
+<body bgcolor="#000000">
+<!-- standard MD5 implementation -->
+<script type="text/javascript" src="md5.js"></script>
+
+<script type="text/javascript">
+  function verify() {
+    checkpass = document.getElementById("pass").value;
+    if (md5(checkpass) == "03318769a5ee1354f7479acc69755e7c") {
+      alert("Correct!");
+      document.location="./aebe515f7c62b96ad7de047c11aa3228.html";
+    }
+    else {
+      alert("Incorrect password");
+    }
+  }
+</script>
+<div style="position:relative; padding:5px;top:50px; left:38%; width:350px; height:140px; background-color:red">
+<div style="text-align:center">
+<p>Welcome to the Secure Login Server.</p>
+<p>Please enter your credentials to proceed</p>
+<form action="index.html" method="post">
+<input type="password" id="pass" size="8" />
+<br/>
+<input type="submit" value="Log in" onclick="verify(); return false;" />
+</form>
+</div>
+</div>
+</body>
+</html>
