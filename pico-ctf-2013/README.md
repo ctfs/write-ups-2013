@@ -45,6 +45,9 @@
 * [Black Hole: 115](black-hole)
 * [Core Decryption: 120](core-decryption)
 
+##### Script Exploitation
+* [Pretty Hard Programming: 95](pretty-hard-programming)
+
 ##### Reverse Engineering - TODO
 
 * [avaJ: 85](#)
@@ -73,7 +76,6 @@
 * [PHP2: 85](#)
 * [PHP4: 110](#)
 * [PHP3: 120](#)
-* [Pretty Hard Programming: 95](#)
 * [Python Eval 1: 85](#)
 * [Python Eval 2: 95](#)
 * [Python Eval 3: 110](#)
