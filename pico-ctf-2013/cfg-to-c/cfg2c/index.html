@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>ASM CFG C</title>
+        <link rel="stylesheet" href=""/>
+    </head>
+
+    <body>Match the control flow graph on the left with the correct C function on the right. Submit the correct answer sequence (i.e. 'ABCD').
+        <form method="post" action="grader.py">
+            <table cellpadding="15px" align="center">
+                <th>
+                    <td width="10%"></td>
+                    <td width="35%"></td>
+                    <td width="1%"></td>
+                    <td width="50%"></td>                    
+                </th>
+                <tr>
+                    <td><h1>1)</h1></td>
+                    <td align="center">
+                        <img src="func1.png"/>
+                    </td>  
+                    <td></td>                                      
+                    <td><h1>A)</h1>
+                        <pre>
+        int modulo(int a, int b)
+        {
+            return b % a;
+        }
+
+                        </pre>
+                    </td>
+                </tr>
+		        <tr>
+                    <td><h1>2)</h1></td>
+		            <td align="center">
+                        <img src="func2.png"/>
+		            </td><td></td>
+		            <td><h1>B)</h1>
+			        <pre>
+        int loop(int a)
+        {
+            while (a >= 0) {
+                a--;
+            }
+            return a;
+        }
+			        </pre>
+		            </td>
+		        </tr>
+		        <tr>
+		            <td><h1>3)</h1></td>
+		            <td align="center">
+                        <img src="func3.png"/>
+		            </td>
+		            <td>
+		            </td>
+		            <td><h1>C)</h1>
+			        <pre>
+        int control(int a, int b)
+        {    
+            if (a > b)
+                return b;
+            else 
+                return a;  
+            
+        }
+			        </pre>
+		            </td>
+		        </tr>
+		        <tr>
+                    <td><h1>4)</h1></td>
+		            <td align="center">			
+                        <img src="func4.png"/>			
+		            </td>
+		            <td>
+		            <td><h1>D)</h1>
+			        <pre>
+        int for_loop(int a, int b, int c)
+        {
+            int i;
+
+            for(i = 0; i < b; i++)
+                 a = c + i;
+            return a;
+        }
+
+			        </pre>
+		            </td>
+		        </tr>
+
+            </table>
+        </form>
+    </body>
+</html>
