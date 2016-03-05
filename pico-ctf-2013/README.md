@@ -29,8 +29,8 @@
 ##### Cryptography - TODO
 
 * [Trivial: 45](trivial)
-* [Classic: 70](#)
-* [Robomunication: 80](#)
+* [Classic: 70](classic)
+* [Robomunication: 80](robomunication)
 * [Broken CBC: 125](#)
 * [Broken RSA: 180](#)
 
