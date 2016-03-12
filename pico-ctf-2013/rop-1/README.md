@@ -24,7 +24,8 @@ void vulnerable_function() {
     read(STDIN_FILENO, buf, 256);
 }
 ```
-As you may have guessed, the vulnerability is in the ```C
+As you may have guessed, the vulnerability is in the 
+```C
 vulnerable_function()
 ```
 ## Other write-ups and resources
