@@ -49,7 +49,7 @@
 * [Pretty Hard Programming: 95](pretty-hard-programming)
 
 ##### Binary Exploitation
-* [ROP 1](rop-1)
+* [ROP 1: 95](rop-1)
 
 ##### Reverse Engineering - TODO
 
@@ -62,7 +62,6 @@
 
 ##### Binary Exploitation - TODO
 
-* [ROP 1: 95](#)
 * [ROP 2: 120](#)
 * [ROP 3: 150](#)
 * [ROP 4: 165](#)
