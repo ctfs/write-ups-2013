@@ -31,7 +31,7 @@ void vulnerable_function() {
 }
 ```
 
-Unlike in [ROP 1](rop-1), the call to `not_called()` doesn't automatically give
+Unlike in [ROP 1](../rop-1), the call to `not_called()` doesn't automatically give
 us a shell. However, with a bit of hacking chicanery, this won't be an issue. 
 
 In order for you to understand this exploit, I'm going to teach you a bit about the
