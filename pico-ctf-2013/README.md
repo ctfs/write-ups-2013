@@ -49,7 +49,11 @@
 * [Pretty Hard Programming: 95](pretty-hard-programming)
 * [PHP2: 85](php2)
 * [PHP3: 120](php3)
-
+* [Python Eval 1: 85](python-eval-1)
+* [Python Eval 2: 95](python-eval-2)
+* [Python Eval 3: 110](python-eval-3)
+* [Python Eval 5: 140](python-eval-5)
+* 
 ##### Reverse Engineering - TODO
 
 * [avaJ: 85](#)
@@ -72,13 +76,6 @@
 * [Overflow 3: 120](#)
 * [Overflow 4: 150](#)
 * [Overflow 5: 190](#)
-
-##### Script Exploitation
-
-* [Python Eval 1: 85](python-eval-1)
-* [Python Eval 2: 95](python-eval-2)
-* [Python Eval 3: 110](python-eval-3)
-* [Python Eval 5: 140](python-eval-5)
 
 ## External write-ups only
 * [PHP4: 110](php4)
