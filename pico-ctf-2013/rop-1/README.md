@@ -25,7 +25,7 @@ void vulnerable_function() {
 }
 ```
 As you may have guessed, the vulnerability is in the 
-```C vulnerable_function()```
+```vulnerable_function()```
 ## Other write-ups and resources
 
 * none yet
