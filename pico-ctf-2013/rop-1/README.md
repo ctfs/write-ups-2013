@@ -13,13 +13,19 @@
 >
 
 ## Write-up
-Looking at the C code, there is an interesting function:
+Looking at the C code, there is are two interesting functions:
 ```C
 int not_called() {
 return system("/bin/bash");
 }
-```
 
+void vulnerable_function() {
+    char buf[128];
+    read(STDIN_FILENO, buf, 256);
+}
+```
+As you may have guessed, the vulnerability is in the 
+```C vulnerable_function()```
 ## Other write-ups and resources
 
 * none yet
