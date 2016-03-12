@@ -8,32 +8,17 @@
 > non-executable memory. This sequence will teach you the basics.
 >
 > Problem available on the shell machine in /problems/ROP_1_fa6168f4d8eba0eb ,
-> downloadable here with source here.
+> downloadable [here](https://2013.picoctf.com/problems/rop1-fa6168f4d8eba0eb)  with source [here](https://2013.picoctf.com/problems/rop1-fa6168f4d8eba0eb.c).
 >
 >
 
 ## Write-up
-
-We have encryption algorithms and cipher text.
-
-A little edit, we can generate input as string (length = 10, characters: 0-9,a-z (1-255 ASCII)).
-Then encrypt and compare with cipher text.
-
-Source: [solve.py](solve.py)
-
-```python
-verify_arr = [193, 35, 9, 33, 1, 9, 3, 33, 9, 225]
-password = ""
-for i in xrange(0,10):
-  for j in xrange(1,256):
-    k = (((j << 5) | (j >> 3)) ^ 111) & 255
-    if k == verify_arr[i]:
-      password = password + chr(j)
-
-print password
+Looking at the C code, there is an interesting function:
+```C
+int not_called() {
+return system("/bin/bash");
+}
 ```
-
-**Answer:** ub3rs3cr3t
 
 ## Other write-ups and resources
 
