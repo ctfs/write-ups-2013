@@ -1,4 +1,4 @@
-# PicoCTF 2013: ROP 1
+# PicoCTF 2013: ROP 2
 
 **Category:** Binary Exploitation
 **Points:** 120
