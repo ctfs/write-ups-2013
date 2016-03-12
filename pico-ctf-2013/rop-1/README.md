@@ -34,7 +34,7 @@ problems have NX/ASLR enabled, and sometimes other protections. This means that
 libc and stack addresses are random, and that no memory is simultaneously
 writeable and executable. RIP shellcode.
 
-Luckil, `not_called()` does most of the heavy lifting for us. Since
+Luckily, `not_called()` does most of the heavy lifting for us. Since
 ASLR **does not** randomize the addresses in the executable, we can reliably
 supply the address of `not_called()` and get a shell!
 
