@@ -106,9 +106,7 @@ python -c 'print "A"*140 + "\xa0\x83\x04\x08" + "AAAA" + "\x01\x00\x00\x00" +
 The "AAAA" in the exploit is the return address, we'll get to that later. If
 you run this, you'll get a little bit of gibberish to print out and then a
 segfault. That gibberish is the libc address of `read()` for that runtime.
-Instead of "AAAA" for our return address, we will instead call `main()` again
-to retrigger the vulnerability, only this time we will know the address of
-`system()`. Luckily, "/bin/sh" is also in libc. Time for good ol' gdb:
+Time for good ol' gdb:
 
 ```
 $ gdb rop3-7f3312fe43c46d26
