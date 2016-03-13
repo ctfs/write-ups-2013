@@ -53,6 +53,7 @@
 
 * [ROP 1: 95](rop-1)
 * [ROP 2: 120](rop-2)
+* [ROP 3: 150](rop-3)
 
 ##### Reverse Engineering - TODO
 
@@ -65,7 +66,6 @@
 
 ##### Binary Exploitation - TODO
 
-* [ROP 3: 150](#)
 * [ROP 4: 165](#)
 * [Format 1: 100](#)
 * [Format 2: 180](#)
