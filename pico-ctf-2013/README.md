@@ -46,10 +46,13 @@
 * [Core Decryption: 120](core-decryption)
 
 ##### Script Exploitation
+
 * [Pretty Hard Programming: 95](pretty-hard-programming)
 
 ##### Binary Exploitation
+
 * [ROP 1: 95](rop-1)
+* [ROP 2: 120](rop-2)
 
 ##### Reverse Engineering - TODO
 
@@ -62,7 +65,6 @@
 
 ##### Binary Exploitation - TODO
 
-* [ROP 2: 120](#)
 * [ROP 3: 150](#)
 * [ROP 4: 165](#)
 * [Format 1: 100](#)
