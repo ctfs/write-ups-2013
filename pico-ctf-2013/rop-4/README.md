@@ -106,6 +106,8 @@ Note that I supplied the same address as the call to `read()`. This is because
 when you run the program, you'll actually type in /bin/sh for the second read,
 and that is what gets executed. Try typing in /bin/date , it will also work :P
 
+Note: On the server you may want to use /bin/bash :)
+
 pwned.
 
 ## Other write-ups and resources
