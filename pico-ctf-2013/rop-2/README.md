@@ -70,8 +70,10 @@ objdump -d rop2-20f65dd0bcbe267d | grep system
 We get an adress of 0x080483a0. We can put this into `$eip` followed by a bogus
 four byte return address (we don't need to call another function in this
 problem) and the pointer to what we want to call system on. Conveniently
-enough, `char * not_used = "/bin/bash";` is exactly what we need.
- 
+enough, `char * not_used = "/bin/bash";` is exactly what we need. You might be
+wondering how we're going to get access to `not_used` since it's on a
+randomized stack. The good news is that "/bin/bash" is in the binary as a raw
+string. **We can reliably supply "/bin/bash" to ```system()```.**
 
 ## Other write-ups and resources
 
