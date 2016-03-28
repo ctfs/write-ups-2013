@@ -87,5 +87,5 @@
 
 ## Missing write-ups
 
-* **Link to `#` is TODO.**```vulnerable_function()```
+* **Link to `#` is TODO.**
 
