@@ -46,8 +46,7 @@
 * [NAVSAT: 70](navsat)
 * [Spamcarver: 70](spamcarver)
 * [Second Contact: 85](second-contact)
-* [In Hex, No One Can Hear You Complain:
-  90](in-hex-no-one-can-hear-you-complain)
+* [In Hex, No One Can Hear You Complain:  90](in-hex-no-one-can-hear-you-complain)
 * [Chromatophoria: 100](chromatophoria)
 * [Dark Star: 110](dark-star)
 * [Black Hole: 115](black-hole)
