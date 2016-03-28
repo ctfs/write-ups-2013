@@ -1,4 +1,4 @@
-# PicoCTF 2013 write-ups
+coCTF 2013 write-ups
 
 * <https://2013.picoctf.com>
 * [Scoreboard](https://2013.picoctf.com/scoreboard)
@@ -26,6 +26,13 @@
 * [DDoS Detection: 85](ddos-detection)
 * [Injection: 110](injection)
 
+##### Binary Exploiatation
+
+* [ROP 1: 95](#)
+* [ROP 2: 120](#)
+* [ROP 3: 150](#)
+* [ROP 4: 165](#)
+
 ##### Cryptography - TODO
 
 * [Trivial: 45](trivial)
@@ -39,7 +46,8 @@
 * [NAVSAT: 70](navsat)
 * [Spamcarver: 70](spamcarver)
 * [Second Contact: 85](second-contact)
-* [In Hex, No One Can Hear You Complain: 90](in-hex-no-one-can-hear-you-complain)
+* [In Hex, No One Can Hear You Complain:
+  90](in-hex-no-one-can-hear-you-complain)
 * [Chromatophoria: 100](chromatophoria)
 * [Dark Star: 110](dark-star)
 * [Black Hole: 115](black-hole)
@@ -53,7 +61,7 @@
 * [Python Eval 2: 95](python-eval-2)
 * [Python Eval 3: 110](python-eval-3)
 * [Python Eval 5: 140](python-eval-5)
-* 
+
 ##### Reverse Engineering - TODO
 
 * [avaJ: 85](#)
@@ -65,10 +73,6 @@
 
 ##### Binary Exploitation - TODO
 
-* [ROP 1: 95](#)
-* [ROP 2: 120](#)
-* [ROP 3: 150](#)
-* [ROP 4: 165](#)
 * [Format 1: 100](#)
 * [Format 2: 180](#)
 * [Overflow 1: 90](#)
@@ -83,4 +87,5 @@
 
 ## Missing write-ups
 
-* **Link to `#` is TODO.**
+* **Link to `#` is TODO.**```vulnerable_function()```
+
