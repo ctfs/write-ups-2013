@@ -1,4 +1,4 @@
-coCTF 2013 write-ups
+# PicoCTF 2013 write-ups
 
 * <https://2013.picoctf.com>
 * [Scoreboard](https://2013.picoctf.com/scoreboard)
