@@ -1,4 +1,4 @@
-# PicoCTF 2013: ROP 1
+# PicoCTF 2013: Overflow 2
 
 **Category:** Binary Exploitation
 **Points:** 100
@@ -17,10 +17,13 @@
 >cat /problems/stack_overflow_2_44e63640e033ff2b/key
 >on the PicoCTF shell machine.
 
+>**Hint:** A function's arguments live on top of its stack frame, above its
+>saved ebp and return address. Make sure not to clobber those, though...
+
 
 ## Write-up
 Looking at the source, this problem is nearly identical to Overflow 1
-```
+```C
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -116,6 +119,9 @@ Stack dump:
 win = 1
 $
 ```
+The hint said not to clobber the saved ebp and eip arguments, but those don't
+matter for this problem. You'll get a shell before the `ret` instruction
+occurs, so you don't have to worry :)
 
 pwn.
 

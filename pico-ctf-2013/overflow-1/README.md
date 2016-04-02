@@ -24,7 +24,7 @@
 ## Write-up
 
 Looking at the source, we can see a few things:
-```
+```C
 void vuln(int tmp, char *str) {
     int win = tmp;
     char buf[64];
