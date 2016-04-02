@@ -1,4 +1,4 @@
-## PicoCTF 2013: Overflow #
+## PicoCTF 2013: Overflow 3
 
 **Category:** Binary Exploitation
 **Points:** 120

