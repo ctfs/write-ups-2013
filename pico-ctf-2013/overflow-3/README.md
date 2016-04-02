@@ -9,8 +9,8 @@
 >help acquaint you with stacks and binary exploitation in general.
 
 >Problem available on the shell machine in
->/problems/stack_overflow_3_28d8a442fb232c0c , downloadable here with source
->here.
+>/problems/stack_overflow_3_28d8a442fb232c0c , downloadable [here](https://2013.picoctf.com/problems/overflow3-28d8a442fb232c0c) with source
+>[here](https://2013.picoctf.com/problems/overflow3-28d8a442fb232c0c.c).
 
 >If you solve the problem you will be able to read the key file by running
 
